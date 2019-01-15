@@ -12,6 +12,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "lodash": "^4.17.11",
+    "node-emoji": "^1.8.1",
     "tonal": "^2.1.2"
   }
 }
