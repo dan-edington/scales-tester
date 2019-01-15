@@ -17,7 +17,7 @@ const checkAnswer = answer => {
 
     const correctNote = scale[0]
 
-    if (_.trim(_.toLower(answer)) === _trim(_.toLower(correctNote))) {
+    if (_.trim(_.toLower(answer)) === _.trim(_.toLower(correctNote))) {
         console.log(chalk.bgGreen.white('CORRECT!\r\n'))
         score++
     } else {
